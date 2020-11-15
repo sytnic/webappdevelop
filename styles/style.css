@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+#headertagline {
+	color: rgba(100,100,100,1.00); 
+	font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif; 
+	padding-left: 15px;
+}
+
 ul li {
 	color:rgba(100,100,100,1.00);
 }
@@ -122,10 +128,12 @@ footer article h3 {
 	padding-top: 32px;
 }
 #mainwrapper {
-	/* Container of all content */
-	width: 80%;
-	overflow: auto;
-	margin-left: 10%;
+    /* Container of all content */
+    width: 80%;
+    overflow: auto;
+    margin-left: 10%;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    color: rgba(100,100,100,1);
 }
 #content #sidebar input {
 	/* Search box in sidebar */
