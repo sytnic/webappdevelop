@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.highlight {
+	background: #ffffcc;
+}
+
 #headertagline {
 	color: rgba(100,100,100,1.00); 
 	font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', serif; 
