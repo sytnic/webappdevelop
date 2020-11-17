@@ -1,10 +1,20 @@
 // JavaScript Document
-// Этото код вызывает алерт
-function simpleMessage(){
-	alert('На этой странице будут выполняться некоторые JavaScript элементы');
-}
 
-setTimeout(simpleMessage, 3000);
+// этот код работает с формой
+var nameField = document.getElementById("name");
+
+nameField.onfocus = function() {
+	if ( nameField.value == "your name") {
+		nameField.value = "";
+	}
+};
+
+nameField.onblur = function() {
+	if ( nameField.value == "") {
+		nameField.value = "your name";
+	}
+};
+
 
 // Этот код захватывает картинку по id, и перебирает массив, подставляя значения в src
 let myImage = document.getElementById("mainImage");
@@ -27,4 +37,10 @@ let intervalHandle = setInterval(changeImage,5000);
 myImage.onclick =  function() {
 	clearInterval(intervalHandle);
 };
+
+
+
+
+
+
 
