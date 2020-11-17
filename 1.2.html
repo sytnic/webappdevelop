@@ -35,46 +35,33 @@
     
 		<h1>
           <!-- Blog title -->
-2.2 HTML разметка c CSS</h1>
+1.2 Просмотр сертификата и IP сайта</h1>
      
       <div id="bannerImage"><img src="images/mycode1000x300.jpg" alt=""/></div>
       
 		
 		<h2>Задача</h2>
-	  <p>Итак, теперь задача - добавить побольше html-элементов, включая что-то новое из HTML5. Вместе с CSS. </p>
+	  <p>Задача - яснее не придумаешь. Но сначала я ее не понял )). </p>
 		<h2>Задумка</h2>
-      <p>Ну что ж. Добавим сюда табличку и видео.</p>
+      <p>Итак, берём любой сайт и смотрим. Возьмём github.</p>
         <h2>Решение</h2>
-      <p>Зачем говорить о решении, если на него лучше посмотреть?</p>
-		<table width="400" border="1">
-  <tbody>
-    <tr>
-      <th scope="col">&nbsp;1 столбец</th>
-      <th scope="col">&nbsp;2 столбец</th>
-      <th scope="col">&nbsp;3 столбец</th>
-      <th scope="col">&nbsp;4 столбец</th>
-    </tr>
-    <tr>
-      <td>&nbsp;2 строка</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td>&nbsp;3 строка</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
-        <p>На самом деле, вот эта объемная граница между ячейками может настраиваться средствами стилей: до одиночной линиии (с помощью collapse) или даже вовсе быть убранной. Вообще, просто теги table без стилей создают таблицу именно без границ. </p>
-      <p>Ну а теперь видео.</p>
-        <p>Попробую вставить.</p>
-		<iframe width="420" height="345" src="https://www.youtube.com/embed/2MsN8gpT6jY">
-</iframe>
-		<p>Это Ютуб видео. Здесь используются теги iframe. Если нужно вставить собственное сохранённое видео, то нужно применять немного другие теги: теги video.</p>
-		<p>Возможность напрямую встраивать видео на страницу появилась в HTML5.</p>
+      <p>Всё решение в скриншотах, естественно. Точнее, в тегах img.</p>
+	  <p>Смотрим на примере Firefox Developer Edition.</p>	
+        <img src="images/githubcert1.jpg" alt=""/>
+		<br><br>
+        <img src="images/githubcert2.jpg" alt=""/>
+		<br><br>
+		<img src="images/githubcert3.jpg" alt=""/>
+		<p>По кнопке "Просмотреть сертификат" Firefox выдаёт страничку с подробной информацией по сертификату и его пути.</p>
+		<img src="images/githubcert4.jpg" alt=""/>
+		<br><br>
+      <p>Ну а IP узнаём на сайте 2ip.ru.</p>
+        <img src="images/githubip.jpg" width="776" height="601" alt=""/>
+<p>То есть IP сайта github.com - 140.82.121.3</p>
+		
+		<h2>Размышления</h2>
+      <p>Ну, картинки в тегах img - не резиновые. Нужна, конечно, тонкая работа со стилями, чтобы иображения растягивались и сжимались. Примерно так, как работает самый верхний баннер с изображением кода.</p>
+		
       <aside id="authorInfo"> 
         <!-- The author information is contained here -->
         <h2>copyright</h2>
@@ -83,7 +70,7 @@
     </section>
     <section id="sidebar"> 
       <!--************************************************************************
-    Sidebar starts here. It contains a searchbox, sample ad image and links
+    Sidebar starts here. It contains a searchbox, sample ad image and 6 links
     ****************************************************************************-->
       <input type="text" placeholder="Search">
       <div id="adimage"><img src="images/300x250.gif" alt=""/></div>

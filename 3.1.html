@@ -22,7 +22,6 @@
   </header>
 	<!-- Tagline -->
 	 <p id="headertagline">Разработка веб-приложений</p>
-	
   <div id="content">
     <div class="notOnDesktop"> 
       <!-- This search box is displayed only in mobile and tablet laouts and not in desktop layouts -->
@@ -32,50 +31,36 @@
       <!--************************************************************************
     Main content starts here
     ****************************************************************************-->
-    
-		<h1>
-          <!-- Blog title -->
-2.2 HTML разметка c CSS</h1>
-     
+      
+        <!-- Blog title -->
+      <h1>3.1 Страничка с JavaScript</h1>
       <div id="bannerImage"><img src="images/mycode1000x300.jpg" alt=""/></div>
       
 		
 		<h2>Задача</h2>
-	  <p>Итак, теперь задача - добавить побольше html-элементов, включая что-то новое из HTML5. Вместе с CSS. </p>
+	  <p>Итак, задача - дополнить страничку элементами JavaScript.</p>
 		<h2>Задумка</h2>
-      <p>Ну что ж. Добавим сюда табличку и видео.</p>
+      <p>Ну, с воображением у меня всегда были трудности. Поэтому попробую здесь что-нибудь воспроизвести.</p>
         <h2>Решение</h2>
-      <p>Зачем говорить о решении, если на него лучше посмотреть?</p>
-		<table width="400" border="1">
-  <tbody>
-    <tr>
-      <th scope="col">&nbsp;1 столбец</th>
-      <th scope="col">&nbsp;2 столбец</th>
-      <th scope="col">&nbsp;3 столбец</th>
-      <th scope="col">&nbsp;4 столбец</th>
-    </tr>
-    <tr>
-      <td>&nbsp;2 строка</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td>&nbsp;3 строка</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-  </tbody>
-</table>
-        <p>На самом деле, вот эта объемная граница между ячейками может настраиваться средствами стилей: до одиночной линиии (с помощью collapse) или даже вовсе быть убранной. Вообще, просто теги table без стилей создают таблицу именно без границ. </p>
-      <p>Ну а теперь видео.</p>
-        <p>Попробую вставить.</p>
-		<iframe width="420" height="345" src="https://www.youtube.com/embed/2MsN8gpT6jY">
-</iframe>
-		<p>Это Ютуб видео. Здесь используются теги iframe. Если нужно вставить собственное сохранённое видео, то нужно применять немного другие теги: теги video.</p>
-		<p>Возможность напрямую встраивать видео на страницу появилась в HTML5.</p>
-      <aside id="authorInfo"> 
+		<button onclick="alert('Тут будут выполняться некоторые JavaScript элементы');">Что тут будет </button>
+      <p>Итак, маленький скрипт, перебирающий картинки. Остановить можно, кликнув по картинке.</p>
+		
+	  <p><img id="mainImage" src="images/beach_houses.jpg" alt="" width="400" height="260" /></p>
+		
+	<p>Форма с обработкой событий onblur и onfocus:</p>
+	
+		<form class="highlight"><br>
+		    <p style="padding-left: 10px;"><label>Name:</label>
+			    <input type="text" id="name" value="your name"> <br>
+			</p>
+			<p style="padding-left: 10px;"><label>Email:</label>
+			    <input type="text" id="email"> 
+			</p><br>
+		</form>
+
+        <h2>Размышления</h2>
+       <p>Кто-нибудь замечает, как правильно пишется Javascript? Да, судя по всему, правильно писать только JavaScript. А как он правильно произносится?..</p>
+         <aside id="authorInfo"> 
         <!-- The author information is contained here -->
         <h2>copyright</h2>
         <p>(с) Dmitry Sytnic, 2020</p>
@@ -117,5 +102,6 @@
   </div>
   <div id="footerbar"><!-- Small footerbar at the bottom --></div>
 </div>
+	<script src="js/script.js"></script>
 </body>
 </html>
